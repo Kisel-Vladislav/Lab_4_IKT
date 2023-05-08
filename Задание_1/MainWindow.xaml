@@ -1,0 +1,19 @@
+﻿<Window x:Class="Lab_IKT_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_IKT_4"
+        mc:Ignorable="d"
+        Title="Задание_1" Height="400" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid x:Name="grid1" ShowGridLines="False">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <Button x:Name="button1" Content="Click" Click="Button_Click" Grid.Row="1" />
+        <TextBlock x:Name="textBox" Grid.Row="0" TextAlignment="Center" FontSize="20"/>
+    </Grid>
+</Window>
